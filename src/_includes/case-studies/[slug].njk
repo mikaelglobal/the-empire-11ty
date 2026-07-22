@@ -1,0 +1,54 @@
+---
+layout: layout.njk
+pagination:
+  data: collections.caseStudies
+  size: 1
+  alias: caseStudy
+permalink: "case-studies/{{ caseStudy.data.slug }}/index.html"
+---
+<main class="case-study-single">
+  <article class="case-study-article">
+    <!-- Back link -->
+    <a href="/case-studies/" class="back-to-case-studies">← Back to all case studies</a>
+
+    <!-- Hero Image -->
+    <div class="case-study-hero-image-wrap">
+      <img 
+        class="case-study-hero-image" 
+        src="{{ caseStudy.data.image }}" 
+        alt="{{ caseStudy.data.title }}" 
+        loading="eager" 
+        width="1200" 
+        height="600"
+      />
+    </div>
+
+    <!-- Meta -->
+    <div class="case-study-article-meta">
+      <span class="case-study-client">{{ caseStudy.data.client }}</span>
+      <span class="case-study-year">{{ caseStudy.data.year }}</span>
+    </div>
+
+    <!-- Tags -->
+    <div class="case-study-article-tags">
+      {% for tag in caseStudy.data.tags %}
+      <span class="case-study-article-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+
+    <!-- Title -->
+    <h1 class="case-study-article-title">{{ caseStudy.data.title }}</h1>
+
+    <!-- Content -->
+    <div class="case-study-article-content">
+      {{ caseStudy.data.content | safe }}
+    </div>
+
+    <!-- Footer / CTA -->
+    <div class="case-study-article-footer">
+      <p class="case-study-cta">
+        Interested in a similar project? <a href="/#contact">Let's talk</a>.
+      </p>
+    </div>
+  </article>
+</main>

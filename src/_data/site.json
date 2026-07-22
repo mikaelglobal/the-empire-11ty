@@ -1,0 +1,226 @@
+{
+  "title": "MIKAEL GLOBAL",
+  "description": "Data Analysis & Web Development — Turning data into direction.",
+  "url": "https://mikaelglobal.netlify.app",
+  "author": "Michael Esan",
+  "email": "mikaelglobal01@gmail.com",
+  "phone": "0906 901 8772",
+  "location": "Lagos, Nigeria",
+  "founded": 2021,
+  "navigation": [
+    { "label": "About", "url": "/#about" },
+    { "label": "Services", "url": "/#services" },
+    { "label": "Skills", "url": "/#skills" },
+    { "label": "Projects", "url": "/#projects" },
+    { "label": "Insights", "url": "/insights/" },
+    { "label": "Case Studies", "url": "/case-studies/" },
+    { "label": "Contact", "url": "/#contact" }
+  ],
+  "footerNav": {
+    "company": [
+      { "label": "Careers", "url": "/careers/" },
+      { "label": "About", "url": "/#about" },
+      { "label": "Contact", "url": "/#contact" }
+    ],
+    "resources": [
+      { "label": "Insights", "url": "/insights/" },
+      { "label": "Case Studies", "url": "/case-studies/" },
+      { "label": "Projects", "url": "/#projects" }
+    ]
+  },
+  "stats": [
+    { "target": 25, "label": "Projects Delivered", "suffix": "+" },
+    { "target": 4, "label": "Years of Excellence", "suffix": "+" },
+    { "target": 15, "label": "Clients Served", "suffix": "+" },
+    { "target": 50, "label": "TB Data Processed", "suffix": "+" }
+  ],
+  "services": [
+    {
+      "num": "01",
+      "cat": "Analytics",
+      "name": "Data Analysis & Intelligence",
+      "desc": "Transform raw data into actionable insights with comprehensive analysis and visualization.",
+      "tags": ["Python", "SQL", "Tableau", "Excel", "Data Visualization", "Statistical Analysis"]
+    },
+    {
+      "num": "02",
+      "cat": "Engineering",
+      "name": "Web Development",
+      "desc": "Build responsive, scalable web applications tailored to your business needs.",
+      "tags": ["React", "Node.js", "HTML5", "CSS3", "MongoDB", "REST APIs"]
+    },
+    {
+      "num": "03",
+      "cat": "Insight",
+      "name": "Business Intelligence",
+      "desc": "Make informed decisions with custom dashboards and real-time reporting.",
+      "tags": ["Dashboards", "Reporting", "KPI Tracking", "Predictive Analytics"]
+    },
+    {
+      "num": "04",
+      "cat": "Strategy",
+      "name": "Digital Strategy",
+      "desc": "Strategic guidance to align your digital products with business goals.",
+      "tags": ["Consulting", "UX Research", "Product Strategy", "Growth"]
+    }
+  ],
+  "skills": [
+    {
+      "num": "01",
+      "name": "Data & Analytics",
+      "tags": ["Python", "SQL", "Tableau", "Excel", "Pandas", "Statistical Analysis", "Data Visualization", "Predictive Analytics"]
+    },
+    {
+      "num": "02",
+      "name": "Web Development",
+      "tags": ["React", "Node.js", "HTML5", "CSS3", "JavaScript", "MongoDB", "REST APIs"]
+    },
+    {
+      "num": "03",
+      "name": "Tools & Platforms",
+      "tags": ["Git", "Netlify", "Figma", "VS Code", "Jupyter"]
+    },
+    {
+      "num": "04",
+      "name": "Certifications",
+      "tags": ["Data Analytics Essentials — Cisco Networking Academy (2026)"],
+      "isCert": true
+    }
+  ],
+  "projects": [
+    {
+      "year": "2026",
+      "category": "web",
+      "categoryLabel": "Web Development",
+      "title": "AI-Powered Research Assistant",
+      "desc": "Client: Academic Research — An AI-powered research assistant that helps users generate academic content and verify research sources in real-time.",
+      "features": ["AI Content Generation", "User Authentication", "Source Verification"],
+      "stack": ["React", "HTML5", "MongoDB", "REST API", "CSS3"],
+      "live": "https://mumuai.pages.dev",
+      "repo": "https://github.com/yourusername/mumu-ai",
+      "report": "/case-studies/ai-research-assistant/"
+    },
+    {
+      "year": "2025",
+      "category": "web",
+      "categoryLabel": "Web Development",
+      "title": "Full-Stack Cleaning Service Platform",
+      "desc": "Client: Professional Cleaning — Designed and deployed a responsive full-stack website for a professional cleaning service.",
+      "features": ["Full Stack Website", "Automatic Mailing", "User Database"],
+      "stack": ["HTML5", "CSS3", "JavaScript", "MongoDB"],
+      "live": "https://radianttouch25.netlify.app",
+      "repo": "https://github.com/yourusername/radiant-clean",
+      "report": "/case-studies/cleaning-platform/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
+      "title": "Plant Growth Analysis: Rainwater vs Groundwater Irrigation",
+      "desc": "A 13-week comparative study of growth performance across four crops under rainwater and groundwater irrigation.",
+      "features": ["Growth Rate Analysis", "Mixed-Effects Modeling", "Statistical Testing"],
+      "stack": ["R", "ggplot2", "dplyr", "rstatix", "lme4"],
+      "live": "https://github.com/the-kinghimself/plant-growth-analysis",
+      "repo": "https://github.com/the-kinghimself/plant-growth-analysis",
+      "report": "/case-studies/plant-growth-analysis/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
+      "title": "Water Quality Assessment",
+      "desc": "An R workflow that evaluates water quality data against WHO guidelines across sampling locations.",
+      "features": ["WHO Compliance Evaluation", "Unit Conversion", "Automated Excel Export"],
+      "stack": ["R", "ggplot2", "dplyr", "tidyr", "writexl"],
+      "live": "https://github.com/the-kinghimself/water-quality-assessment",
+      "repo": "https://github.com/the-kinghimself/water-quality-assessment",
+      "report": "/case-studies/water-quality-assessment/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
+      "title": "Postpartum Medicinal Plant Analysis",
+      "desc": "An ethnobotanical survey analysis computing Frequency of Citation and Use Value for postpartum medicinal plants.",
+      "features": ["Survey Data Analysis", "Use Value Scoring", "Demographic Summary"],
+      "stack": ["R", "ggplot2", "dplyr", "forcats"],
+      "live": "https://github.com/the-kinghimself/analysis-of-postpartum-medicinal-plants",
+      "repo": "https://github.com/the-kinghimself/analysis-of-postpartum-medicinal-plants",
+      "report": "/case-studies/medicinal-plant-analysis/"
+    }
+  ],
+  "insights": [
+    {
+      "slug": "building-data-dashboards-that-actually-get-used",
+      "title": "Building Data Dashboards That Actually Get Used",
+      "date": "2026-07-19",
+      "readTime": 4,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop&auto=format",
+      "imageMobile": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&auto=format",
+      "excerpt": "Most dashboards fail because they're built for stakeholders, not for decisions. Here's how we approach dashboard design at MIKAEL GLOBAL.",
+      "tags": ["Data Analysis", "Dashboards", "Power BI"],
+      "content": "<p>Most dashboards fail because they're built for stakeholders, not for decisions. Here's how we approach dashboard design at MIKAEL GLOBAL.</p><h2>The Problem</h2><p>Dashboards are often designed to display data, not to drive action. They become visual clutter — beautiful but useless.</p><p>At MIKAEL GLOBAL, we take a different approach: we start with the decision, not the data.</p><h2>Our Framework</h2><h3>1. Define the Decision</h3><p>What specific decision does this dashboard inform? Without a clear answer, the dashboard is not worth building.</p><h3>2. Design for Action</h3><p>Every chart, metric, and filter should guide the user toward a specific action. If it doesn't, cut it.</p><h3>3. Test with Real Users</h3><p>We prototype early and test with actual decision-makers — not with managers, but with the people who click the buttons.</p><h2>Real Results</h2><p>Using this framework, we've helped clients reduce report-generation time by 60% and increase data-driven decision frequency by 2x.</p><p><strong>Read the full breakdown →</strong> Or reach out if you want us to build one for you.</p>"
+    },
+    {
+      "slug": "modern-web-development-without-the-framework-fatigue",
+      "title": "Modern Web Development Without the Framework Fatigue",
+      "date": "2026-07-15",
+      "readTime": 3,
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=600&fit=crop&auto=format",
+      "imageMobile": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&auto=format",
+      "excerpt": "Sometimes the best stack is the one that doesn't get in your way. How we build fast, reliable sites with pure HTML, CSS, and JavaScript.",
+      "tags": ["Web Development", "Performance", "Vanilla JS"],
+      "content": "<p>Sometimes the best stack is the one that doesn't get in your way. At MIKAEL GLOBAL, we often build with pure HTML, CSS, and JavaScript — no frameworks, no build tools, no fatigue.</p><h2>Why Vanilla?</h2><p>Frameworks add complexity, bundle sizes, and cognitive overhead. For many projects, they're overkill.</p><p>With a disciplined approach to organization and a handful of vanilla patterns, we build sites that are:</p><ul><li><strong>Faster</strong> — no framework runtime, smaller bundles</li><li><strong>More maintainable</strong> — no version churn, no breaking changes</li><li><strong>Easier to debug</strong> — you're reading the code that actually runs</li></ul><h2>Our Approach</h2><h3>Progressive Enhancement</h3><p>Start with semantic HTML, layer CSS for styling, and add JavaScript for interactivity. Every layer works without the ones beneath it.</p><h3>Component Thinking Without Components</h3><p>We use partials, template literals, and a simple module pattern to keep code DRY without introducing a framework.</p><h2>When We Reach for a Framework</h2><p>We use React when the project genuinely needs it — complex state, heavy interactivity, or team preference. But we always ask: <em>do we really need this?</em></p><p>Most of the time, the answer is no.</p>"
+    },
+    {
+      "slug": "predictive-analytics-for-small-businesses",
+      "title": "Predictive Analytics for Small Businesses: A Practical Guide",
+      "date": "2026-07-10",
+      "readTime": 5,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop&auto=format",
+      "imageMobile": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&auto=format",
+      "excerpt": "You don't need a data science team to start predicting customer behavior. Here's a practical framework for small businesses.",
+      "tags": ["Data Analysis", "Predictive Analytics", "Business Intelligence"],
+      "content": "<p>You don't need a data science team to start predicting customer behavior. At MIKAEL GLOBAL, we've built predictive models for businesses with as few as 50 customers.</p><h2>The Framework</h2><h3>Step 1: Define What You're Predicting</h3><p>Start with a clear business question: <em>Which customers are most likely to churn next month?</em> or <em>What's the optimal price point for this product?</em></p><h3>Step 2: Gather the Right Data</h3><p>You likely have more data than you think. Transaction history, website behavior, support tickets — it's all valuable.</p><h3>Step 3: Choose the Right Model</h3><p>For most small businesses, a simple logistic regression or decision tree performs just as well as a complex neural network — and is far easier to explain.</p><h2>Tools We Use</h2><ul><li><strong>Python</strong> with pandas, scikit-learn, and statsmodels</li><li><strong>R</strong> for statistical analysis</li><li><strong>Power BI</strong> for visualization</li></ul><h2>Case Study</h2><p>We helped a Lagos-based retailer predict stock-outs 2 weeks in advance with 85% accuracy. Result: 30% reduction in lost sales and 20% less inventory holding cost.</p><p><strong>Want to try this for your business? Get in touch.</strong></p>"
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "ai-research-assistant",
+      "title": "AI-Powered Research Assistant",
+      "client": "Academic Research",
+      "year": "2026",
+      "description": "A comprehensive case study of building an AI-powered research assistant that helps academics generate content and verify sources in real-time.",
+      "image": "/assets/images/case-studies/ai-research-assistant.jpg",
+      "tags": ["AI", "React", "Node.js", "MongoDB"],
+      "content": "<p>Full case study content goes here...</p>"
+    },
+    {
+      "slug": "cleaning-platform",
+      "title": "Full-Stack Cleaning Service Platform",
+      "client": "Professional Cleaning",
+      "year": "2025",
+      "description": "A deep dive into building a full-stack platform for a professional cleaning service, including automated mailing and customer database management.",
+      "image": "/assets/images/case-studies/cleaning-platform.jpg",
+      "tags": ["Full Stack", "HTML5", "CSS3", "JavaScript", "MongoDB"],
+      "content": "<p>Full case study content goes here...</p>"
+    },
+    {
+      "slug": "plant-growth-analysis",
+      "title": "Plant Growth Analysis: Rainwater vs Groundwater",
+      "client": "Agricultural Research",
+      "year": "2026",
+      "description": "A detailed statistical analysis comparing growth performance across four crops under rainwater and groundwater irrigation.",
+      "image": "/assets/images/case-studies/plant-growth.jpg",
+      "tags": ["R", "Statistics", "Agriculture"],
+      "content": "<p>Full case study content goes here...</p>"
+    }
+  ],
+  "social": {
+    "email": "mikaelglobal01@gmail.com",
+    "phone": "0906 901 8772",
+    "location": "Lagos, Nigeria (Remote)",
+    "linkedin": "https://linkedin.com/in/the-kinghimself",
+    "github": "https://github.com/the-kinghimself"
+  }
+}

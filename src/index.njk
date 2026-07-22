@@ -1,0 +1,253 @@
+---
+layout: layout.njk
+title: MIKAEL GLOBAL — Data Analysis & Web Development
+description: MIKAEL GLOBAL is a Lagos-based data analysis and web development firm helping businesses turn raw data into insight.
+---
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-globe-wrap">
+    <div class="globe-glow"></div>
+    <div class="globe-orbit orbit-1"></div>
+    <div class="globe-orbit orbit-2"></div>
+    <div class="globe-perspective">
+      <div class="globe-tilt">
+        <div class="globe-spin"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-tag">Data Analysis & Web Development</div>
+    <h1 class="hero-name">
+      <div class="line"><span class="word">MIKAEL</span></div>
+      <div class="line"><span class="word">GLOBAL.</span></div>
+    </h1>
+    <p class="hero-role">Data Analysis · Web Development · Innovation</p>
+    <p class="hero-desc">
+      We transform raw data into actionable insights and build web solutions that drive
+      business growth. Based in Lagos, serving clients worldwide.
+    </p>
+    <div class="hero-ctas">
+      <a href="#services" class="btn-primary">Our Services ↓</a>
+      <a href="#contact" class="btn-secondary">Book Us →</a>
+    </div>
+  </div>
+
+  <svg class="hero-data-motif" viewBox="0 0 340 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <linearGradient id="dataGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.22" />
+        <stop offset="100%" stop-color="#C9A84C" stop-opacity="0" />
+      </linearGradient>
+    </defs>
+    <polygon class="data-motif-fill" points="10,150 10,95 70,110 130,70 190,85 250,40 330,20 330,150" />
+    <polyline class="data-motif-path" points="10,95 70,110 130,70 190,85 250,40 330,20" />
+    <circle class="data-motif-dot" cx="10" cy="95" r="3.5" style="animation-delay:1.9s" />
+    <circle class="data-motif-dot" cx="70" cy="110" r="3.5" style="animation-delay:2.1s" />
+    <circle class="data-motif-dot blue" cx="130" cy="70" r="3.5" style="animation-delay:2.3s" />
+    <circle class="data-motif-dot" cx="190" cy="85" r="3.5" style="animation-delay:2.5s" />
+    <circle class="data-motif-dot blue" cx="250" cy="40" r="3.5" style="animation-delay:2.7s" />
+    <circle class="data-motif-dot" cx="330" cy="20" r="4" style="animation-delay:2.9s" />
+  </svg>
+
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    Scroll to explore
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  {% for stat in site.stats %}
+  <div class="stat-item">
+    <span class="stat-num" data-target="{{ stat.target }}">0</span>
+    <span class="stat-label">{{ stat.label }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-text">
+    <div class="section-eyebrow">Who We Are</div>
+    <h2 class="section-title">Turning data into<br><em style="color:var(--gold);font-style:normal;">direction</em>.</h2>
+    <p class="about-bio">
+      <strong>MIKAEL GLOBAL</strong> is a Lagos-based data analysis and web development firm founded by <strong>Michael Esan</strong>. We bridge the gap between raw data and digital experiences — helping businesses make data-driven decisions while building robust, user-centric web applications.
+    </p>
+    <p class="about-bio">
+      With a focus on clean architecture, scalable solutions, and actionable analytics, we partner with clients across industries to turn complex problems into elegant, measurable outcomes.
+    </p>
+
+    <div class="about-contact-row">
+      <div class="contact-item">
+        <span class="ci-label">Phone</span>
+        <a href="tel:{{ site.social.phone | replace(' ', '') }}">{{ site.social.phone }}</a>
+      </div>
+      <div class="contact-item">
+        <span class="ci-label">Email</span>
+        <a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
+      </div>
+      <div class="contact-item">
+        <span class="ci-label">Location</span>
+        <span>{{ site.social.location }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-eyebrow">Capabilities</div>
+  <h2 class="section-title reveal">What We Do</h2>
+
+  <div class="skills-grid">
+    {% for service in site.services %}
+    <div class="service-card reveal">
+      <div class="service-card-num">{{ service.num }}</div>
+      <div class="service-cat">{{ service.cat }}</div>
+      <div class="service-name">{{ service.name }}</div>
+      <p class="service-desc">{{ service.desc }}</p>
+      <div class="service-tags">
+        {% for tag in service.tags %}
+        <span class="service-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-eyebrow">Toolkit</div>
+  <h2 class="section-title reveal">Skills</h2>
+
+  <div class="skills-panel">
+    {% for skill in site.skills %}
+    <div class="skill-group reveal">
+      <div class="skill-group-head">
+        <span class="skill-group-num">{{ skill.num }}</span>
+        <span class="skill-group-name">{{ skill.name }}</span>
+      </div>
+      <div class="skill-tag-row">
+        {% for tag in skill.tags %}
+        <span class="skill-tag{% if skill.isCert %} cert-tag{% endif %}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- PROJECTS – UPDATED WITH THREE BUTTONS -->
+<section id="projects">
+  <div class="section-eyebrow">Selected Work</div>
+  <h2 class="section-title reveal">Client Projects</h2>
+
+  <div class="project-filters reveal">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="web">Web Development</button>
+    <button class="filter-btn" data-filter="data">Data Analysis</button>
+  </div>
+
+  <div class="projects-list">
+    {% for project in site.projects %}
+    <!-- Card is a div with data-report-url for JavaScript click handling -->
+    <div class="project-item" data-category="{{ project.category }}" data-report-url="{{ project.report }}">
+      <div class="project-year">{{ project.year }}</div>
+      <div class="project-info">
+        <span class="project-category-tag{% if project.category == 'data' %} data{% endif %}">{{ project.categoryLabel }}</span>
+        <h3 class="project-title">{{ project.title }}</h3>
+        <p class="project-desc">{{ project.desc }}</p>
+        <div class="project-features">
+          {% for feature in project.features %}
+          <span class="proj-feature">{{ feature }}</span>
+          {% endfor %}
+        </div>
+        <div class="project-stack" style="margin-top:16px;">
+          {% for tech in project.stack %}
+          <span class="project-tech">{{ tech }}</span>
+          {% endfor %}
+        </div>
+        <!-- Three action buttons -->
+        <div class="project-actions">
+          {% if project.live %}
+          <a href="{{ project.live }}" target="_blank" class="project-btn live">Live</a>
+          {% endif %}
+          {% if project.repo %}
+          <a href="{{ project.repo }}" target="_blank" class="project-btn repo">Repository</a>
+          {% endif %}
+          <a href="{{ project.report }}" class="project-btn more">More</a>
+        </div>
+      </div>
+      <!-- Arrow (optional) -->
+      <div class="project-arrow">↗</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- FOUNDER – UPDATED WITH SOCIAL LINKS -->
+<section id="founder">
+  <div class="section-eyebrow">Background</div>
+  <h2 class="section-title reveal">The Founder</h2>
+
+  <div class="founder-block reveal">
+    <div class="founder-year-col">
+      <span class="founder-year">2026</span>
+      <span class="founder-status">Founded</span>
+    </div>
+    <div class="founder-card">
+      <div class="founder-institution">Michael Esan</div>
+      <div class="founder-abbr">Founder &amp; Lead Developer — MIKAEL GLOBAL</div>
+      <div class="founder-degree">Full-stack developer and data analyst with a passion for building solutions that matter.</div>
+      <div class="founder-note">
+        Michael combines technical expertise with a deep understanding of business needs — helping companies leverage data and technology for growth. With a background in Water Resources Management at FUNAAB and years of hands-on development experience, he brings a unique perspective to every project: analytical, creative, and results-driven.
+      </div>
+      
+      <!-- ── FOUNDER SOCIAL LINKS ── -->
+      <div class="founder-social-links">
+        <a href="mailto:{{ site.social.email }}" class="founder-social-link email" aria-label="Email Michael">
+          <span class="founder-social-icon">✉</span>
+          <span class="founder-social-text">{{ site.social.email }}</span>
+        </a>
+        <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer" class="founder-social-link linkedin" aria-label="LinkedIn">
+          <span class="founder-social-icon">in</span>
+          <span class="founder-social-text">LinkedIn</span>
+        </a>
+        {% if site.social.github %}
+        <a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer" class="founder-social-link github" aria-label="GitHub">
+          <span class="founder-social-icon">〈/〉</span>
+          <span class="founder-social-text">GitHub</span>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-bg-text">HIRE US</div>
+  <div class="section-eyebrow" style="justify-content:center;">Get In Touch</div>
+  <p class="contact-intro reveal">Ready to transform your data or build a web solution?</p>
+  <h2 class="contact-headline reveal">Let's Build<br>Something <em>Great.</em></h2>
+
+  <div class="contact-links reveal">
+    <a href="mailto:{{ site.social.email }}" class="contact-link">
+      <span>✉ {{ site.social.email }}</span>
+    </a>
+    <!-- Phone link changed to WhatsApp -->
+    <a href="{{ site.social.phone | whatsapp }}" target="_blank" rel="noopener noreferrer" class="contact-link">
+      <span>💬 WhatsApp</span>
+    </a>
+    <a href="#" class="contact-link">
+      <span>📍 {{ site.social.location }}</span>
+    </a>
+  </div>
+</section>

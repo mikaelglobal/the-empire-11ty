@@ -1,0 +1,78 @@
+/* ── SERVICES ── */
+#services { background: var(--bg2); }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2px;
+}
+
+.service-card {
+  background: var(--bg3);
+  padding: 48px 40px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0; transform: translateY(30px);
+  transition: opacity 0.6s, transform 0.6s, background 0.3s;
+  cursor: default;
+}
+.service-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.service-card:hover::before { transform: scaleX(1); }
+.service-card:hover { background: #1e1e1e; }
+.service-card.visible { opacity: 1; transform: translateY(0); }
+
+.service-card-num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  color: rgba(201,168,76,0.07);
+  position: absolute;
+  top: 20px; right: 24px;
+  line-height: 1;
+}
+.service-cat {
+  font-size: 0.65rem; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 20px;
+}
+.service-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 14px;
+}
+.service-desc {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+}
+.service-tags {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.service-tag {
+  font-size: 0.7rem;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  transition: border-color 0.2s, color 0.2s;
+}
+.service-card:hover .service-tag {
+  border-color: rgba(201,168,76,0.3);
+  color: var(--text-soft);
+}
+
+.service-card:nth-child(1) { transition-delay: 0.1s; }
+.service-card:nth-child(2) { transition-delay: 0.2s; }
+.service-card:nth-child(3) { transition-delay: 0.3s; }
+.service-card:nth-child(4) { transition-delay: 0.4s; }
+.service-card:nth-child(even) .service-card-num { color: rgba(74,141,183,0.14); }
+.service-card:nth-child(even)::before { background: linear-gradient(90deg, transparent, var(--data-blue), transparent); }
