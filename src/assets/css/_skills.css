@@ -1,0 +1,56 @@
+/* ── SKILLS ── */
+#skills { padding: 120px 60px; }
+
+.skills-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.skill-group {
+  background: var(--bg2);
+  padding: 36px 40px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 32px;
+  align-items: start;
+  opacity: 0; transform: translateY(20px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+.skill-group.visible { opacity: 1; transform: translateY(0); }
+.skill-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+.skill-group-num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: rgba(201,168,76,0.3);
+}
+.skill-group-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+.skill-tag-row {
+  display: flex; flex-wrap: wrap; gap: 10px;
+}
+.skill-tag {
+  font-size: 0.72rem;
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  color: var(--text-soft);
+  letter-spacing: 0.05em;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.skill-tag:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: rgba(201,168,76,0.06);
+}
+.skill-tag.cert-tag {
+  border-color: rgba(201,168,76,0.35);
+  color: var(--gold);
+}

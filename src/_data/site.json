@@ -1,0 +1,161 @@
+{
+  "title": "MIKAEL GLOBAL",
+  "description": "Data Analysis & Web Development — Turning data into direction.",
+  "url": "https://mikaelglobal.netlify.app",
+  "author": "Michael Esan",
+  "email": "mikaelglobal01@gmail.com",
+  "phone": "0906 901 8772",
+  "location": "Lagos, Nigeria",
+  "founded": 2021,
+  "navigation": [
+    { "label": "About", "url": "/#about" },
+    { "label": "Services", "url": "/#services" },
+    { "label": "Skills", "url": "/#skills" },
+    { "label": "Projects", "url": "/#projects" },
+    { "label": "Insights", "url": "/insights/" },
+    { "label": "Case Studies", "url": "/case-studies/" },
+    { "label": "Contact", "url": "/#contact" }
+  ],
+  "footerNav": {
+    "company": [
+      { "label": "Careers", "url": "/careers/" },
+      { "label": "About", "url": "/#about" },
+      { "label": "Contact", "url": "/#contact" }
+    ],
+    "resources": [
+      { "label": "Insights", "url": "/insights/" },
+      { "label": "Case Studies", "url": "/case-studies/" },
+      { "label": "Projects", "url": "/#projects" }
+    ]
+  },
+  "stats": [
+    { "target": 25, "label": "Projects Delivered", "suffix": "+" },
+    { "target": 4, "label": "Years of Excellence", "suffix": "+" },
+    { "target": 15, "label": "Clients Served", "suffix": "+" },
+    { "target": 50, "label": "TB Data Processed", "suffix": "+" }
+  ],
+  "services": [
+    {
+      "num": "01",
+      "cat": "Analytics",
+      "name": "Data Analysis & Intelligence",
+      "desc": "Transform raw data into actionable insights with comprehensive analysis and visualization.",
+      "tags": ["Python", "SQL", "Tableau", "Excel", "Data Visualization", "Statistical Analysis"]
+    },
+    {
+      "num": "02",
+      "cat": "Engineering",
+      "name": "Web Development",
+      "desc": "Build responsive, scalable web applications tailored to your business needs.",
+      "tags": ["React", "Node.js", "HTML5", "CSS3", "MongoDB", "REST APIs"]
+    },
+    {
+      "num": "03",
+      "cat": "Insight",
+      "name": "Business Intelligence",
+      "desc": "Make informed decisions with custom dashboards and real-time reporting.",
+      "tags": ["Dashboards", "Reporting", "KPI Tracking", "Predictive Analytics"]
+    },
+    {
+      "num": "04",
+      "cat": "Strategy",
+      "name": "Digital Strategy",
+      "desc": "Strategic guidance to align your digital products with business goals.",
+      "tags": ["Consulting", "UX Research", "Product Strategy", "Growth"]
+    }
+  ],
+  "skills": [
+    {
+      "num": "01",
+      "name": "Data & Analytics",
+      "tags": ["Python", "SQL", "Tableau", "Excel", "Pandas", "Statistical Analysis", "Data Visualization", "Predictive Analytics"]
+    },
+    {
+      "num": "02",
+      "name": "Web Development",
+      "tags": ["React", "Node.js", "HTML5", "CSS3", "JavaScript", "MongoDB", "REST APIs"]
+    },
+    {
+      "num": "03",
+      "name": "Tools & Platforms",
+      "tags": ["Git", "Netlify", "Figma", "VS Code", "Jupyter"]
+    },
+    {
+      "num": "04",
+      "name": "Certifications",
+      "tags": ["Data Analytics Essentials — Cisco Networking Academy (2026)"],
+      "isCert": true
+    }
+  ],
+  "projects": [
+    {
+      "year": "2026",
+      "category": "web",
+      "categoryLabel": "Web Development",
+      "title": "AI-Powered Research Assistant",
+      "desc": "Client: Academic Research — An AI-powered research assistant that helps users generate academic content and verify research sources in real-time.",
+      "features": ["AI Content Generation", "User Authentication", "Source Verification"],
+      "stack": ["React", "HTML5", "MongoDB", "REST API", "CSS3"],
+      "live": "https://mumuai.pages.dev",
+      "repo": "https://github.com/yourusername/mumu-ai",
+      "report": "/case-studies/ai-research-assistant/"
+    },
+    {
+      "year": "2025",
+      "category": "web",
+      "categoryLabel": "Web Development",
+      "title": "Full-Stack Cleaning Service Platform",
+      "desc": "Client: Professional Cleaning — Designed and deployed a responsive full-stack website for a professional cleaning service.",
+      "features": ["Full Stack Website", "Automatic Mailing", "User Database"],
+      "stack": ["HTML5", "CSS3", "JavaScript", "MongoDB"],
+      "live": "https://radianttouch25.netlify.app",
+      "repo": "https://github.com/yourusername/radiant-clean",
+      "report": "/case-studies/cleaning-platform/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
+      "title": "Plant Growth Analysis: Rainwater vs Groundwater Irrigation",
+      "desc": "A 13-week comparative study of growth performance across four crops under rainwater and groundwater irrigation.",
+      "features": ["Growth Rate Analysis", "Mixed-Effects Modeling", "Statistical Testing"],
+      "stack": ["R", "ggplot2", "dplyr", "rstatix", "lme4"],
+      "live": "https://github.com/the-kinghimself/plant-growth-analysis",
+      "repo": "https://github.com/the-kinghimself/plant-growth-analysis",
+      "report": "/case-studies/plant-growth-analysis/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
+      "title": "Water Quality Assessment",
+      "desc": "An R workflow that evaluates water quality data against WHO guidelines across sampling locations.",
+      "features": ["WHO Compliance Evaluation", "Unit Conversion", "Automated Excel Export"],
+      "stack": ["R", "ggplot2", "dplyr", "tidyr", "writexl"],
+      "live": "https://github.com/the-kinghimself/water-quality-assessment",
+      "repo": "https://github.com/the-kinghimself/water-quality-assessment",
+      "report": "/case-studies/water-quality-assessment/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
+      "title": "Postpartum Medicinal Plant Analysis",
+      "desc": "An ethnobotanical survey analysis computing Frequency of Citation and Use Value for postpartum medicinal plants.",
+      "features": ["Survey Data Analysis", "Use Value Scoring", "Demographic Summary"],
+      "stack": ["R", "ggplot2", "dplyr", "forcats"],
+      "live": "https://github.com/the-kinghimself/analysis-of-postpartum-medicinal-plants",
+      "repo": "https://github.com/the-kinghimself/analysis-of-postpartum-medicinal-plants",
+      "report": "/case-studies/medicinal-plant-analysis/"
+    }
+  ],
+
+
+  "social": {
+    "email": "mikaelglobal01@gmail.com",
+    "phone": "0906 901 8772",
+    "location": "Lagos, Nigeria (Remote)",
+    "linkedin": "https://linkedin.com/in/the-kinghimself",
+    "github": "https://github.com/the-kinghimself"
+  }
+}

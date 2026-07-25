@@ -1,0 +1,59 @@
+---
+layout: layout.njk
+---
+<main class="insights-single">
+  <article class="insight-article">
+    <!-- Back link -->
+    <a href="/insights/" class="back-to-insights">← Back to all insights</a>
+
+    <!-- Responsive Hero Image -->
+    <picture class="insight-article-image-wrap">
+      <source 
+        media="(min-width: 768px)" 
+        srcset="{{ image }}" 
+      />
+      <source 
+        media="(max-width: 767px)" 
+        srcset="{{ imageMobile or image }}" 
+      />
+      <img 
+        class="insight-article-image" 
+        src="{{ image }}" 
+        alt="{{ title }}" 
+        loading="eager" 
+        width="1200" 
+        height="600"
+      />
+    </picture>
+
+    <!-- Meta -->
+    <div class="insight-article-meta">
+      <span class="insight-article-date">{{ date | formatDate }}</span>
+      <span class="insight-article-readtime">{{ readTime }} min read</span>
+    </div>
+
+    <!-- Tags -->
+    <div class="insight-article-tags">
+      {% for tag in tags %}
+        {% if tag != "insights" %}
+        <span class="insight-article-tag">{{ tag }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Title -->
+    <h1 class="insight-article-title">{{ title }}</h1>
+
+    <!-- Content -->
+    <div class="insight-article-content">
+      {{ content | safe }}
+    </div>
+
+    <!-- Footer / Share -->
+    <div class="insight-article-footer">
+      <p class="insight-article-share">
+        Liked this? <a href="mailto:{{ site.social.email }}">Let's talk</a> about your next project.
+      </p>
+    </div>
+  </article>
+</main>

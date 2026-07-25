@@ -1,0 +1,5 @@
+{
+  "layout": "insight-layout.njk",
+  "tags": ["insights"],
+  "permalink": "insights/{{ page.fileSlug }}/index.html"
+}

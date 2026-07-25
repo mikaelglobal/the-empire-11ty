@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title or "MIKAEL GLOBAL — Data Analysis & Web Development" }}</title>
+  <meta name="description" content="{{ description or site.description }}" />
+  <link rel="icon" type="image/png" href="/assets/mk_logo.png" />
+  <link rel="apple-touch-icon" href="/assets/mk_logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body class="{{ pageClass or '' }}">
+
+  {# NAVIGATION #}
+  {% include "nav.njk" %}
+
+  {# PAGE CONTENT #}
+  {{ content | safe }}
+
+  {# FOOTER #}
+  {% include "footer.njk" %}
+
+  {# SCRIPTS #}
+  <script type="module" src="/assets/js/main.js"></script>
+
+</body>
+</html>

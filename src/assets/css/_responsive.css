@@ -1,0 +1,87 @@
+/* ── RESPONSIVE ── */
+@media (max-width: 1200px) {
+  .hero-data-motif { width: 240px; height: 110px; right: 30px; bottom: 30px; }
+  .hero-globe-wrap { width: 180px; height: 180px; top: 110px; right: 40px; }
+}
+
+@media (max-width: 900px) {
+  nav { padding: 24px 24px; }
+  .nav-links { display: none; }
+  #hero { padding: 100px 24px 60px; }
+  .hero-scroll-hint { left: 24px; }
+  .stats-bar { padding: 32px 24px; flex-wrap: wrap; gap: 32px; }
+  .stat-item { border: none; padding: 0; }
+  section { padding: 80px 24px; }
+  #about { grid-template-columns: 1fr; gap: 60px; }
+  .about-visual { height: 300px; }
+  .founder-block { grid-template-columns: 1fr; gap: 24px; }
+  .founder-year-col { text-align: left; }
+  .project-item { grid-template-columns: 1fr; gap: 16px; }
+  .project-year { text-align: left; }
+  .project-arrow { display: none; }
+  .careers-preview { padding: 60px 24px 60px; }
+  .careers-page { padding: 120px 24px 60px; }
+  .careers-hero { padding: 32px; }
+  #skills { padding: 80px 24px; }
+  .skill-group { grid-template-columns: 1fr; gap: 16px; padding: 28px 24px; }
+  #projects { padding: 80px 24px; }
+  #blog { padding: 80px 24px; }
+  .blog-grid { grid-template-columns: 1fr; }
+  footer { flex-direction: column; gap: 12px; text-align: center; }
+  .hero-data-motif { display: none; }
+  .hero-globe-wrap { top: 24px; right: 24px; width: 110px; height: 110px; }
+}
+
+/* ── BLOG PAGE RESPONSIVE ── */
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .blog-card {
+    padding: 1.5rem;
+  }
+  .blog-post-view {
+    padding: 1.5rem 5% 3rem;
+  }
+  .page-blog .blog-hero {
+    padding: 80px 5% 30px;
+  }
+}
+
+/* ── PROJECT BUTTONS RESPONSIVE ── */
+@media (max-width: 768px) {
+  .project-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .project-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ── FOUNDER RESPONSIVE ── */
+@media (max-width: 768px) {
+  .founder-block {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .founder-year-col {
+    text-align: left;
+  }
+  
+  .founder-card {
+    padding: 32px 24px;
+  }
+  
+  .founder-social-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .founder-social-link {
+    justify-content: center;
+  }
+}
