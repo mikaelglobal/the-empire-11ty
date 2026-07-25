@@ -3,11 +3,15 @@
   "version": "2.0.0",
   "description": "MIKAEL GLOBAL — Data Analysis & Web Development",
   "scripts": {
-    "start": "eleventy --serve --port=8080",
-    "build": "eleventy",
-    "watch": "eleventy --watch"
+    "start": "npx @11ty/eleventy --serve --port=8080",
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "overrides": {
+    "minimatch": "^9.0.4",
+    "brace-expansion": "^2.0.1"
   }
 }
