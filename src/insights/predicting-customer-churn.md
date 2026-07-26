@@ -18,7 +18,7 @@ Customer churn is the silent revenue killer in subscription-based businesses. In
 
 In this post, I'll walk you through an end-to-end machine learning project using the **IBM Telco Customer Churn Dataset**. We'll tackle the two biggest demons in classification: **severe class imbalance** and **model interpretability**. The weapon of choice? **SMOTE** for synthetic oversampling and **XGBoost** for high-performance, interpretable predictions.
 
-The full code is available in this [Google Colab Notebook](https://colab.research.google.com/drive/12sCWMxTE5920_4G6rIL9WySbE2nUZ3S1?usp=sharing) — feel free to fork it and run it yourself.
+The full code is available in this [Github Repo](https://github.com/mikaelglobal/XGboost_churn_prediction) — feel free to fork it and run it yourself.
 
 ---
 
