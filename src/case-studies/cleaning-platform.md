@@ -3,7 +3,7 @@ title: "Full-Stack Cleaning Service Platform"
 client: "Professional Cleaning"
 year: "2025"
 description: "A deep dive into building a full-stack platform for a professional cleaning service, including automated mailing and customer database management."
-image: "src/assets/images/case-studies/radiant_touch_logo.png"
+image: src/assets/images/case-studies/radiant_touch_logo.png
 tags:
   - Full Stack
   - HTML5
