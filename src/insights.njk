@@ -20,7 +20,7 @@ permalink: /insights/index.html
   <!-- Insights Grid -->
   <section class="insights-grid-section">
     <div class="insights-grid">
-      {% for insight in collections.insights %}
+      {% for insight in collections.insights | limit(1000) %}
       {% set cleanTags = [] %}
       {% for tag in insight.data.tags %}
         {% if tag != "insights" %}
