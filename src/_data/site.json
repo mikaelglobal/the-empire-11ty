@@ -1,6 +1,6 @@
 {
   "title": "MIKAEL GLOBAL",
-  "description": "Data Analysis & Web Development — Turning data into direction.",
+  "description": "Data analysis for growth teams — churn prediction, experimentation, and decision-ready analytics.",
   "url": "https://mikaelglobal.netlify.app",
   "author": "Michael Esan",
   "email": "mikaelglobal01@gmail.com",
@@ -29,56 +29,56 @@
     ]
   },
   "stats": [
-    { "target": 25, "label": "Projects Delivered", "suffix": "+" },
-    { "target": 4, "label": "Years of Excellence", "suffix": "+" },
-    { "target": 15, "label": "Clients Served", "suffix": "+" },
-    { "target": 50, "label": "TB Data Processed", "suffix": "+" }
+    { "target": 40, "label": "Retention Models Built", "suffix": "+" },
+    { "target": 15, "label": "A/B Tests Analyzed", "suffix": "+" },
+    { "target": 8, "label": "Growth Teams Supported", "suffix": "+" },
+    { "target": 99, "label": "Forecast Accuracy", "suffix": "%" }
   ],
   "services": [
     {
       "num": "01",
-      "cat": "Analytics",
-      "name": "Data Analysis & Intelligence",
-      "desc": "Transform raw data into actionable insights with comprehensive analysis and visualization.",
-      "tags": ["Python", "SQL", "Tableau", "Excel", "Data Visualization", "Statistical Analysis"]
+      "cat": "Retention",
+      "name": "Churn Prediction & Retention Strategy",
+      "desc": "Identify at-risk customers early and turn behavioral signals into actionable retention playbooks.",
+      "tags": ["Propensity Modeling", "Customer Segmentation", "CLV", "Retention Strategy"]
     },
     {
       "num": "02",
-      "cat": "Engineering",
-      "name": "Web Development",
-      "desc": "Build responsive, scalable web applications tailored to your business needs.",
-      "tags": ["React", "Node.js", "HTML5", "CSS3", "MongoDB", "REST APIs"]
+      "cat": "Experimentation",
+      "name": "A/B Testing & Experiment Analysis",
+      "desc": "Design sharp experiments and evaluate them with clear statistical reasoning and practical next steps.",
+      "tags": ["Experiment Design", "Hypothesis Testing", "Incrementality", "Conversion Analysis"]
     },
     {
       "num": "03",
-      "cat": "Insight",
-      "name": "Business Intelligence",
-      "desc": "Make informed decisions with custom dashboards and real-time reporting.",
-      "tags": ["Dashboards", "Reporting", "KPI Tracking", "Predictive Analytics"]
+      "cat": "Dashboards",
+      "name": "Executive Dashboards & Reporting",
+      "desc": "Create reliable KPI frameworks and executive-ready dashboards that make decision-making easier.",
+      "tags": ["SQL", "Power BI", "Looker Studio", "KPI Reporting"]
     },
     {
       "num": "04",
-      "cat": "Strategy",
-      "name": "Digital Strategy",
-      "desc": "Strategic guidance to align your digital products with business goals.",
-      "tags": ["Consulting", "UX Research", "Product Strategy", "Growth"]
+      "cat": "Forecasting",
+      "name": "Forecasting & Growth Intelligence",
+      "desc": "Translate historical behavior into forecasts, scenarios, and growth insights for smarter planning.",
+      "tags": ["Forecasting", "Scenario Planning", "Cohort Analysis", "Stakeholder Reporting"]
     }
   ],
   "skills": [
     {
       "num": "01",
-      "name": "Data & Analytics",
-      "tags": ["Python", "SQL", "Tableau", "Excel", "Pandas", "Statistical Analysis", "Data Visualization", "Predictive Analytics"]
+      "name": "Analytics & Modeling",
+      "tags": ["Python", "SQL", "Pandas", "Statistical Analysis", "Predictive Analytics", "Regression", "Churn Modeling"]
     },
     {
       "num": "02",
-      "name": "Web Development",
-      "tags": ["React", "Node.js", "HTML5", "CSS3", "JavaScript", "MongoDB", "REST APIs"]
+      "name": "Experimentation",
+      "tags": ["A/B Testing", "Hypothesis Testing", "Experiment Design", "Conversion Analysis", "Incrementality"]
     },
     {
       "num": "03",
-      "name": "Tools & Platforms",
-      "tags": ["Git", "Netlify", "Figma", "VS Code", "Jupyter"]
+      "name": "Storytelling & Reporting",
+      "tags": ["Dashboards", "Power BI", "Looker Studio", "Excel", "Data Visualization", "Executive Reporting"]
     },
     {
       "num": "04",

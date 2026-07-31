@@ -84,9 +84,30 @@
   font-size: 0.88rem;
   line-height: 1.8;
   color: var(--text-muted);
-  max-width: 480px;
-  margin-bottom: 56px;
+  max-width: 600px;
+  margin-bottom: 24px;
   opacity: 0; animation: fadeUp 0.8s 1.1s forwards;
+}
+
+.hero-highlights {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  margin-bottom: 42px;
+  opacity: 0; animation: fadeUp 0.8s 1.25s forwards;
+}
+
+.hero-highlights span {
+  border: 1px solid rgba(201, 168, 76, 0.22);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-soft);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.hero-highlights span strong {
+  color: var(--gold);
 }
 
 .hero-scroll-hint {
