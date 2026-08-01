@@ -3,7 +3,7 @@ title: "AI-Powered Research Assistant"
 client: "Academic Research"
 year: "2026"
 description: "A comprehensive case study of building an AI-powered research assistant that helps academics generate content and verify sources in real-time."
-image: "/assets/images/case-studies/ai-research-assistant.jpg"
+image: "/assets/images/MUMU_logo.png"
 tags:
   - AI
   - React

@@ -3,7 +3,7 @@ title: "Predicting Customer Churn: An End-to-End ML Project with SMOTE and XGBoo
 client: "Customer Analytics"
 year: "2026"
 description: "A comprehensive walkthrough of building a robust churn prediction model using SMOTE for class imbalance and XGBoost for high-performance classification."
-image: "/assets/images/case-studies/churn-prediction.jpg"
+image: "/assets/churn_cover_2.png"
 tags:
   - Data Analysis
   - Machine Learning
