@@ -128,6 +128,18 @@
       "year": "2026",
       "category": "data",
       "categoryLabel": "Data Analysis",
+      "title": "Predicting Customer Churn: An End-to-End ML Project with SMOTE and XGBoost",
+      "desc": "A comprehensive walkthrough of building a robust churn prediction model using SMOTE for class imbalance and XGBoost for high-performance classification.",
+      "features": ["Class Imbalance Handling", "XGBoost Modeling", "Customer Risk Scoring"],
+      "stack": ["Python", "Scikit-learn", "XGBoost", "SMOTE", "Pandas"],
+      "live": "https://github.com/the-kinghimself/predicting-customer-churn",
+      "repo": "https://github.com/the-kinghimself/predicting-customer-churn",
+      "report": "/case-studies/predicting-customer-churn/"
+    },
+    {
+      "year": "2026",
+      "category": "data",
+      "categoryLabel": "Data Analysis",
       "title": "Water Quality Assessment",
       "desc": "An R workflow that evaluates water quality data against WHO guidelines across sampling locations.",
       "features": ["WHO Compliance Evaluation", "Unit Conversion", "Automated Excel Export"],
