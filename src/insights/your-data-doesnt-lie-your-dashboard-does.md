@@ -10,8 +10,6 @@ tags:
 excerpt: "Why the real AI revolution in analytics isn't about answers — it's about the questions you never knew to ask."
 ---
 
-![Glowing data dashboard in a dark office](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop&auto=format)
-
 There's a moment every analyst knows and never talks about.
 
 You've built the dashboard. The chart is clean. The line goes up and to the right, or down and to the left, and the room nods along because the story feels true. Nobody asks what's missing — because a chart never tells you what it left out. It just sits there, confident, finished-looking, daring you to trust it.

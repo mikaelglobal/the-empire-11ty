@@ -12,8 +12,6 @@ tags:
 excerpt: "A comprehensive walkthrough of building a robust churn prediction model using SMOTE for class imbalance and XGBoost for high-performance classification."
 ---
 
-![Customer churn prediction dashboard concept](/assets/images/churn_cover.png)
-
 Customer churn is the silent revenue killer in subscription-based businesses. In telecom, where acquiring a new customer can cost five to ten times more than retaining an existing one, the ability to predict who is about to leave is nothing short of a superpower.
 
 In this post, I'll walk you through an end-to-end machine learning project using the **IBM Telco Customer Churn Dataset**. We'll tackle the two biggest demons in classification: **severe class imbalance** and **model interpretability**. The weapon of choice? **SMOTE** for synthetic oversampling and **XGBoost** for high-performance, interpretable predictions.

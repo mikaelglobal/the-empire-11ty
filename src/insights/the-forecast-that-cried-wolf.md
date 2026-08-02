@@ -7,12 +7,10 @@ tags:
   - Predictive Analytics
   - Data Analysis
   - Business Strategy
-excerpt: "Every forecast that misses isn't a math problem. It's a trust problem — and trust doesn't come back just because the next model is fancier."
+excerpt: "Every forecast that misses isn't a math problem. It's a trust problem and trust doesn't come back just because the next model is fancier."
 ---
 
-![Dark storm clouds gathering over open water](https://images.unsplash.com/photo-1783700111001-3e0452cd2052?w=800&h=400&fit=crop&auto=format)
-
-Somewhere in a filing cabinet — or more likely a forgotten Google Sheet — is a forecast that was very, very wrong.
+Somewhere in a filing cabinet or more likely a forgotten Google Sheet — is a forecast that was very, very wrong.
 
 Maybe it predicted a sales spike that never came. Maybe it said demand would hold steady the exact month it collapsed. Whatever it was, someone made a decision based on it — bought inventory, hired staff, delayed a launch — and it cost them. And here's the part that actually matters: nobody talks about what happened after. Because what happened after is that everyone quietly stopped trusting the forecasts. Not just that one. All of them.
 
