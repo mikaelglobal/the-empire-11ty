@@ -1,6 +1,6 @@
 ---
 title: "Predicting Customer Churn: An End-to-End ML Project with SMOTE and XGBoost"
-date: 2026-07-23
+date: 2026-07-27
 readTime: 8
 image: /assets/images/churn_cover.png
 tags:

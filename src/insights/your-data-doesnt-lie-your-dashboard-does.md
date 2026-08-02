@@ -1,6 +1,6 @@
 ---
 title: "Your Data Doesn't Lie. Your Dashboard Does."
-date: 2026-07-19
+date: 2026-07-20
 readTime: 6
 image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop&auto=format
 tags:
