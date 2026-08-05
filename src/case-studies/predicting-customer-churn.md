@@ -5,7 +5,7 @@ year: "2026"
 description: "A comprehensive walkthrough of building a robust churn prediction model using SMOTE for class imbalance and XGBoost for high-performance classification."
 image: "/assets/images/churn_cover_2.png"
 tags:
-  - Data Analysis
+  - Data & Decision Intelligence
   - Machine Learning
   - Python
   - XGBoost

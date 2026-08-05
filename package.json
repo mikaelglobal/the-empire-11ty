@@ -1,7 +1,7 @@
 {
   "name": "mikael-global",
   "version": "2.0.0",
-  "description": "MIKAEL GLOBAL — Data Analysis & Web Development",
+  "description": "MIKAEL GLOBAL — Data & Decision Intelligence",
   "scripts": {
     "start": "npx @11ty/eleventy --serve --port=8080",
     "build": "npx @11ty/eleventy",

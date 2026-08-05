@@ -1,6 +1,6 @@
 {
   "title": "MIKAEL GLOBAL",
-  "description": "Data analysis for growth teams — churn prediction, experimentation, and decision-ready analytics.",
+  "description": "Data & Decision Intelligence — transforming business data into strategic intelligence that enables better executive decisions.",
   "social": {
     "email": "hello.mikaelglobal@gmail.com",
     "linkedin": "https://linkedin.com/in/the-kinghimself",
@@ -8,39 +8,78 @@
   },
   "stats": [
     { "target": 40, "label": "Retention Models Built", "suffix": "+" },
-    { "target": 15, "label": "A/B Tests Analyzed", "suffix": "+" },
+    { "target": 15, "label": "Experiments Evaluated", "suffix": "+" },
     { "target": 8, "label": "Growth Teams Supported", "suffix": "+" },
     { "target": 99, "label": "Forecast Accuracy", "suffix": "%" }
   ],
   "services": [
     {
       "num": "01",
-      "cat": "Retention",
-      "name": "Churn Prediction & Retention Strategy",
-      "desc": "Identify at-risk customers early and turn behavioral signals into actionable retention playbooks.",
-      "tags": ["Propensity Modeling", "Customer Segmentation", "CLV", "Retention Strategy"]
+      "cat": "Decision Intelligence",
+      "name": "Business Intelligence & Executive Dashboards",
+      "desc": "Design executive-ready KPI frameworks and decision-focused dashboards that drive action and accountability.",
+      "tags": ["Executive Dashboards", "KPI Intelligence", "Data Visualization", "Executive Reporting"]
     },
     {
       "num": "02",
-      "cat": "Experimentation",
-      "name": "A/B Testing & Experiment Analysis",
-      "desc": "Design sharp experiments and evaluate them with clear statistical reasoning and practical next steps.",
-      "tags": ["Experiment Design", "Hypothesis Testing", "Incrementality", "Conversion Analysis"]
+      "cat": "Predictive",
+      "name": "Predictive Analytics & Forecasting",
+      "desc": "Build forecasts, scenario analyses, and predictive models to anticipate risk and uncover growth opportunities.",
+      "tags": ["Forecasting", "Time Series", "Predictive Modeling", "Scenario Planning"]
     },
     {
       "num": "03",
-      "cat": "Dashboards",
-      "name": "Executive Dashboards & Reporting",
-      "desc": "Create reliable KPI frameworks and executive-ready dashboards that make decision-making easier.",
-      "tags": ["SQL", "Power BI", "Looker Studio", "KPI Reporting"]
+      "cat": "Machine Learning",
+      "name": "Machine Learning Solutions",
+      "desc": "Develop production-ready ML models that automate insights and embed intelligence into business workflows.",
+      "tags": ["ML Engineering", "Model Deployment", "Scoring APIs", "XGBoost"]
     },
     {
       "num": "04",
-      "cat": "Forecasting",
-      "name": "Forecasting & Growth Intelligence",
-      "desc": "Translate historical behavior into forecasts, scenarios, and growth insights for smarter planning.",
-      "tags": ["Forecasting", "Scenario Planning", "Cohort Analysis", "Stakeholder Reporting"]
+      "cat": "Decision Support",
+      "name": "Decision Support Systems",
+      "desc": "Create decision frameworks and tools that translate analytics into recommended actions for leaders.",
+      "tags": ["Prescriptive Analytics", "Optimization", "What-if Analysis", "Decision Modeling"]
+    },
+    {
+      "num": "05",
+      "cat": "Risk",
+      "name": "Risk Analytics",
+      "desc": "Detect emerging risks early with analytics tailored to minimise loss and improve resilience.",
+      "tags": ["Risk Scoring", "Fraud Detection", "Early Warning Systems", "Stress Testing"]
+    },
+    {
+      "num": "06",
+      "cat": "Customer",
+      "name": "Customer & Market Intelligence",
+      "desc": "Identify high-value segments and customer behaviours that increase lifetime value and strategic growth.",
+      "tags": ["Segmentation", "CLV", "Customer Analytics", "Market Research"]
+    },
+    {
+      "num": "07",
+      "cat": "Operations",
+      "name": "Operational Performance Analytics",
+      "desc": "Expose bottlenecks and optimise operations using data-driven process and performance analytics.",
+      "tags": ["Process Analytics", "Bottleneck Analysis", "Operational KPIs", "Supply Chain Analytics"]
+    },
+    {
+      "num": "08",
+      "cat": "Strategy",
+      "name": "Data Strategy & Consulting",
+      "desc": "Align people, data, and technology to embed decision intelligence into your organisation’s strategy.",
+      "tags": ["Data Strategy", "Governance", "Roadmapping", "Change Management"]
     }
+  ],
+  "industries": [
+    "Insurance",
+    "Financial Services & FinTech",
+    "Agriculture",
+    "Logistics & Supply Chain",
+    "Healthcare",
+    "Manufacturing",
+    "Retail & E-commerce",
+    "Telecommunications",
+    "Government & Public Sector"
   ],
   "skills": [
     {
@@ -55,8 +94,8 @@
     },
     {
       "num": "03",
-      "name": "Storytelling & Reporting",
-      "tags": ["Dashboards", "Power BI", "Looker Studio", "Excel", "Data Visualization", "Executive Reporting"]
+      "name": "Executive Reporting & KPI Intelligence",
+      "tags": ["Executive Dashboards", "KPI Frameworks", "Data Visualization", "Executive Reporting"]
     },
     {
       "num": "04",
@@ -93,7 +132,7 @@
     {
       "year": "2026",
       "category": "data",
-      "categoryLabel": "Data Analysis",
+      "categoryLabel": "Data & Decision Intelligence",
       "title": "Plant Growth Analysis: Rainwater vs Groundwater Irrigation",
       "desc": "A 13-week comparative study of growth performance across four crops under rainwater and groundwater irrigation.",
       "features": ["Growth Rate Analysis", "Mixed-Effects Modeling", "Statistical Testing"],
@@ -105,7 +144,7 @@
     {
       "year": "2026",
       "category": "data",
-      "categoryLabel": "Data Analysis",
+      "categoryLabel": "Data & Decision Intelligence",
       "title": "Predicting Customer Churn: An End-to-End ML Project with SMOTE and XGBoost",
       "desc": "A comprehensive walkthrough of building a robust churn prediction model using SMOTE for class imbalance and XGBoost for high-performance classification.",
       "features": ["Class Imbalance Handling", "XGBoost Modeling", "Customer Risk Scoring"],
@@ -117,7 +156,7 @@
     {
       "year": "2026",
       "category": "data",
-      "categoryLabel": "Data Analysis",
+      "categoryLabel": "Data & Decision Intelligence",
       "title": "Water Quality Assessment",
       "desc": "An R workflow that evaluates water quality data against WHO guidelines across sampling locations.",
       "features": ["WHO Compliance Evaluation", "Unit Conversion", "Automated Excel Export"],
@@ -129,21 +168,14 @@
     {
       "year": "2026",
       "category": "data",
-      "categoryLabel": "Data Analysis",
+      "categoryLabel": "Data & Decision Intelligence",
       "title": "Postpartum Medicinal Plant Analysis",
       "desc": "An ethnobotanical survey analysis computing Frequency of Citation and Use Value for postpartum medicinal plants.",
-      "features": ["Survey Data Analysis", "Use Value Scoring", "Demographic Summary"],
+      "features": ["Survey Analysis", "Use Value Scoring", "Demographic Summary"],
       "stack": ["R", "ggplot2", "dplyr", "forcats"],
       "live": "https://github.com/the-kinghimself/analysis-of-postpartum-medicinal-plants",
       "repo": "https://github.com/the-kinghimself/analysis-of-postpartum-medicinal-plants",
       "report": "/case-studies/medicinal-plant-analysis/"
     }
-  ],
-
-
-    "social": {
-    "email": "hello.mikaelglobal@gmail.com",
-    "linkedin": "https://linkedin.com/in/the-kinghimself",
-    "github": "https://github.com/the-kinghimself"
-  }
+  ]
 }

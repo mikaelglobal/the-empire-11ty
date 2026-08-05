@@ -5,7 +5,7 @@ readTime: 5
 image: https://images.unsplash.com/photo-1783700111001-3e0452cd2052?w=1200&h=600&fit=crop&auto=format
 tags:
   - Predictive Analytics
-  - Data Analysis
+  - Data & Decision Intelligence
   - Business Strategy
 excerpt: "Every forecast that misses isn't a math problem. It's a trust problem and trust doesn't come back just because the next model is fancier."
 ---
