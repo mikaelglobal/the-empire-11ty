@@ -4,7 +4,7 @@ date: 2026-07-20
 readTime: 6
 image: "/assets/images/data_dont_lie.png"
 tags:
-  - Data & Decision Intelligence
+  - Data Analysis
   - AI
   - Analytics
 excerpt: "Why the real AI revolution in analytics isn't about answers — it's about the questions you never knew to ask."
