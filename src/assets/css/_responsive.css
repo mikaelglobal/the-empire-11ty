@@ -12,6 +12,7 @@
     gap: 16px;
     background: rgba(10,10,10,0.95);
   }
+
   .nav-links {
     display: flex;
     flex-wrap: wrap;
@@ -20,29 +21,78 @@
     width: 100%;
     margin-top: 0;
   }
+
   .nav-links a {
     font-size: 0.72rem;
     flex: 1 1 calc(50% - 12px);
     min-width: 120px;
     text-align: center;
   }
-  #hero { padding: 140px 24px 60px; }
+
+  #hero {
+    padding: 140px 24px 60px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-tag {
+    font-size: 0.68rem;
+    margin-bottom: 24px;
+  }
+
+  .hero-desc {
+    font-size: 0.92rem;
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+
+  .hero-highlights {
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+
+  .hero-highlights span {
+    font-size: 0.7rem;
+    padding: 8px 12px;
+  }
+
   .hero-scroll-hint { left: 24px; }
+
   .hero-orb-1 {
     width: 320px;
     height: 320px;
     top: -80px;
     right: -80px;
   }
+
   .hero-orb-2 {
     width: 220px;
     height: 220px;
     bottom: -40px;
     left: 100px;
   }
-  .stats-bar { padding: 32px 24px; flex-wrap: wrap; gap: 32px; }
-  .stat-item { border: none; padding: 0; }
+
+  .stats-bar {
+    padding: 32px 24px;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .stat-item {
+    border: none;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
   section { padding: 80px 24px; }
+  .focus-grid { gap: 18px; }
   #about { grid-template-columns: 1fr; gap: 60px; }
   .about-visual { height: 300px; }
   .founder-block { grid-template-columns: 1fr; gap: 24px; }
@@ -56,26 +106,65 @@
   #skills { padding: 80px 24px; }
   .skill-group { grid-template-columns: 1fr; gap: 16px; padding: 28px 24px; }
   #projects { padding: 80px 24px; }
-  #blog { padding: 80px 24px; }
-  .blog-grid { grid-template-columns: 1fr; }
   footer { flex-direction: column; gap: 12px; text-align: center; }
   .hero-data-motif { display: none; }
   .hero-globe-wrap { top: 24px; right: 24px; width: 110px; height: 110px; }
+}
+
+@media (max-width: 768px) {
+  .project-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .project-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .founder-block {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .founder-year-col {
+    text-align: left;
+  }
+
+  .founder-card {
+    padding: 32px 24px;
+  }
+
+  .founder-social-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .founder-social-link {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
   #navbar {
     padding: 20px 16px;
   }
+
   .nav-links {
     justify-content: center;
     gap: 8px;
   }
+
   .nav-links a {
     flex: 1 1 100%;
     min-width: unset;
   }
-  #hero { padding: 130px 18px 50px; }
+
+  #hero {
+    padding: 130px 18px 50px;
+  }
+
   .hero-name { font-size: clamp(3rem, 16vw, 4.5rem); }
   .hero-role { font-size: 1.4rem; }
   .hero-desc { max-width: 100%; margin-bottom: 32px; }
@@ -87,58 +176,24 @@
   section { padding: 60px 18px; }
   .stats-bar { gap: 20px; }
   .hero-scroll-hint { left: 18px; }
+  .focus-card { padding: 28px; }
+  .skills-grid { gap: 16px; }
+  #skills { padding: 80px 18px; }
+  .contact-links { flex-direction: column; gap: 14px; }
 }
 
-/* ── BLOG PAGE RESPONSIVE ── */
-@media (max-width: 768px) {
-  .blog-grid {
-    grid-template-columns: 1fr;
-  }
-  .blog-card {
-    padding: 1.5rem;
-  }
-  .blog-post-view {
-    padding: 1.5rem 5% 3rem;
-  }
-  .page-blog .blog-hero {
-    padding: 80px 5% 30px;
-  }
-}
-
-/* ── PROJECT BUTTONS RESPONSIVE ── */
-@media (max-width: 768px) {
-  .project-actions {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-  .project-btn {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-/* ── FOUNDER RESPONSIVE ── */
-@media (max-width: 768px) {
-  .founder-block {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  
-  .founder-year-col {
-    text-align: left;
-  }
-  
-  .founder-card {
-    padding: 32px 24px;
-  }
-  
-  .founder-social-links {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .founder-social-link {
-    justify-content: center;
-  }
+@media (max-width: 480px) {
+  section { padding: 50px 16px; }
+  #hero { padding: 100px 16px 40px; }
+  .hero-name { font-size: clamp(3.2rem, 20vw, 4rem); }
+  .section-title { font-size: clamp(2.2rem, 9vw, 3rem); margin-bottom: 40px; }
+  .hero-role { font-size: 1.25rem; }
+  .hero-highlights { gap: 8px; }
+  .project-item { padding: 28px 20px; gap: 24px; grid-template-columns: 1fr; }
+  .project-year { text-align: left; }
+  .project-arrow { display: none; }
+  .founder-card { padding: 24px 18px; }
+  .case-study-card { padding: 1.4rem; }
+  .insight-card { padding: 1.6rem; }
+  .footer-columns { gap: 24px; }
 }

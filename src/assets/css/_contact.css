@@ -6,6 +6,17 @@
   overflow: hidden;
 }
 
+#contact .contact-links {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+#contact .contact-links.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .contact-bg-text {
   position: absolute;
   font-family: 'Syne', sans-serif;

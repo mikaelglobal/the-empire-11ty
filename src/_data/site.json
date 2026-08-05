@@ -1,32 +1,10 @@
 {
   "title": "MIKAEL GLOBAL",
   "description": "Data analysis for growth teams — churn prediction, experimentation, and decision-ready analytics.",
-  "url": "https://mikaelglobal.netlify.app",
-  "author": "Michael Esan",
-  "email": "mikaelglobal01@gmail.com",
-  "phone": "0906 901 8772",
-  "location": "Lagos, Nigeria",
-  "founded": 2021,
-  "navigation": [
-    { "label": "About", "url": "/#about" },
-    { "label": "Services", "url": "/#services" },
-    { "label": "Skills", "url": "/#skills" },
-    { "label": "Projects", "url": "/#projects" },
-    { "label": "Insights", "url": "/insights/" },
-    { "label": "Case Studies", "url": "/case-studies/" },
-    { "label": "Contact", "url": "/#contact" }
-  ],
-  "footerNav": {
-    "company": [
-      { "label": "Careers", "url": "/careers/" },
-      { "label": "About", "url": "/#about" },
-      { "label": "Contact", "url": "/#contact" }
-    ],
-    "resources": [
-      { "label": "Insights", "url": "/insights/" },
-      { "label": "Case Studies", "url": "/case-studies/" },
-      { "label": "Projects", "url": "/#projects" }
-    ]
+  "social": {
+    "email": "hello.mikaelglobal@gmail.com",
+    "linkedin": "https://linkedin.com/in/the-kinghimself",
+    "github": "https://github.com/the-kinghimself"
   },
   "stats": [
     { "target": 40, "label": "Retention Models Built", "suffix": "+" },
@@ -163,10 +141,8 @@
   ],
 
 
-  "social": {
-    "email": "mikaelglobal01@gmail.com",
-    "phone": "0906 901 8772",
-    "location": "Lagos, Nigeria (Remote)",
+    "social": {
+    "email": "hello.mikaelglobal@gmail.com",
     "linkedin": "https://linkedin.com/in/the-kinghimself",
     "github": "https://github.com/the-kinghimself"
   }

@@ -1,20 +1,8 @@
 module.exports = function(eleventyConfig) {
   // ── PASSTHROUGH COPIES ──
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy("src/assets/js");
-  eleventyConfig.addPassthroughCopy("src/assets/css");
-  eleventyConfig.addPassthroughCopy("src/assets/fonts");
-  eleventyConfig.addPassthroughCopy("src/assets/mk_logo.png");
+  eleventyConfig.addPassthroughCopy("src/assets");
 
   // ── COLLECTIONS ──
-  // Blog posts collection (kept for backward compatibility, but no longer used)
-  eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/posts/*.md").sort((a, b) => {
-      return b.date - a.date;
-    });
-  });
-
-  // ── INSIGHTS COLLECTION ──
   // Reads from src/insights/*.md
   eleventyConfig.addCollection("insights", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/insights/*.md").sort((a, b) => {
@@ -39,19 +27,6 @@ eleventyConfig.addFilter("formatDate", function(date) {
 eleventyConfig.addFilter("limit", function(arr, limit) {
   return arr.slice(0, limit);
 });
-
-// ── NEW: WhatsApp URL filter ──
-eleventyConfig.addFilter("whatsapp", function(phone) {
-  // Remove all spaces and non-digits, then strip leading zero
-  const cleaned = phone.replace(/\D/g, '');
-  // Assume Nigerian number: remove leading zero and prepend 234
-  let number = cleaned;
-  if (number.startsWith('0')) {
-    number = '234' + number.slice(1);
-  }
-  return `https://wa.me/${number}`;
-});
-
 
   // ── MARKDOWN ──
   const markdownIt = require("markdown-it");
