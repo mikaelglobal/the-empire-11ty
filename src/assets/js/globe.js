@@ -8,21 +8,25 @@ export function initGlobe() {
     const R = size / 2;
     spin.innerHTML = '';
 
+    const isSmall = size < 140;
+
     // Core
     const core = document.createElement('div');
     core.className = 'globe-core';
     spin.appendChild(core);
 
     // Meridians (longitude lines)
-    [0, 30, 60, 90, 120, 150].forEach(angle => {
+    const meridians = isSmall ? [0, 60, 120] : [0, 30, 60, 90, 120, 150];
+    meridians.forEach(angle => {
       const m = document.createElement('div');
       m.className = 'meridian';
       m.style.transform = `rotateY(${angle}deg)`;
       spin.appendChild(m);
     });
 
-    // Latitude rings
-    [-60, -30, 0, 30, 60].forEach(lat => {
+    // Latitude rings (simpler on small screens)
+    const latitudes = isSmall ? [-30, 0, 30] : [-60, -30, 0, 30, 60];
+    latitudes.forEach(lat => {
       const rad = (lat * Math.PI) / 180;
       const w = size * Math.cos(rad);
       const yOff = -R * Math.sin(rad);
@@ -45,26 +49,37 @@ export function initGlobe() {
     spin.appendChild(label);
   }
 
-  // Build on load
+  // Build when needed (callers may lazy-init)
   buildHeroGlobe();
 
-  // Rebuild on resize (debounced)
+  // Rebuild on resize (debounced, slightly longer to avoid churn)
   let resizeTimer;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(buildHeroGlobe, 150);
+    resizeTimer = setTimeout(buildHeroGlobe, 250);
   });
 
-  // Mouse tilt
+  // Pointer tilt (throttled via requestAnimationFrame)
   const globeWrap = document.querySelector('.hero-globe-wrap');
   const globeTilt = document.querySelector('.globe-tilt');
   if (globeWrap && globeTilt) {
-    globeWrap.addEventListener('mousemove', (e) => {
+    let ticking = false;
+    const onPointer = (e) => {
+      if (window.matchMedia && window.matchMedia('(max-width: 900px)').matches) return; // avoid on small touch devices
       const rect = globeWrap.getBoundingClientRect();
       const x = (e.clientX - rect.left) / rect.width - 0.5;
       const y = (e.clientY - rect.top) / rect.height - 0.5;
-      globeTilt.style.transform = `rotateX(${y * -25}deg) rotateY(${x * 25}deg)`;
-    });
+
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          globeTilt.style.transform = `rotateX(${y * -25}deg) rotateY(${x * 25}deg)`;
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    globeWrap.addEventListener('pointermove', onPointer, { passive: true });
     globeWrap.addEventListener('mouseleave', () => {
       globeTilt.style.transform = '';
     });

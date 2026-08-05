@@ -109,6 +109,14 @@
   footer { flex-direction: column; gap: 12px; text-align: center; }
   .hero-data-motif { display: none; }
   .hero-globe-wrap { top: 24px; right: 24px; width: 110px; height: 110px; }
+  /* Make the globe visible immediately on smaller screens and reduce animation work */
+  .hero-globe-wrap {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+  .hero-globe-wrap .globe-spin { animation-duration: 40s !important; }
+  .hero-globe-wrap .globe-orbit { animation-duration: 30s !important; }
+  .hero-globe-wrap .globe-glow { animation-duration: 8s !important; }
 }
 
 @media (max-width: 768px) {
